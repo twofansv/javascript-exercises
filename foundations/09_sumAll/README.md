@@ -2,6 +2,10 @@
 
 Implement a function that takes 2 positive integers and returns the sum of every integer between (and including) them:
 
+condition > takes 2 arguments that takes positive integers 
+
+if positive integers return the sum of every integer between the entered integers
+\
 ```javascript
 sumAll(1, 4) // returns the sum of 1 + 2 + 3 + 4 which is 10
 ```
