@@ -4,7 +4,9 @@ const convertToCelsius = function(num) {
   num = num * 5;
   num = num / 9;
 
-  return num;
+  let result = Math.round(num * 10) / 10;
+
+  return result;
 
 };
 
