@@ -10,7 +10,13 @@ const convertToCelsius = function(fah) {
 
 };
 
-const convertToFahrenheit = function() {
+const convertToFahrenheit = function(cel) {
+
+  cel = ((cel * 9) / 5 + 32);
+
+  let result = Math.round(cel * 10) / 10;
+
+  return result;
 };
 
 // Do not edit below this line
