@@ -1,10 +1,10 @@
-const convertToCelsius = function(num) {
+const convertToCelsius = function(fah) {
 
-  num = num - 32;
-  num = num * 5;
-  num = num / 9;
+  fah = fah - 32;
+  fah = fah * 5;
+  fah = fah / 9;
 
-  let result = Math.round(num * 10) / 10;
+  let result = Math.round(fah * 10) / 10;
 
   return result;
 
