@@ -36,20 +36,20 @@ const power = function(num, toThePower) {
 };
 
 
-
-
+                            
 const factorial = function(num) {
-	
-let result = num;
+  let product = 1;
 
-	for (let i = 1; i < toThePower; i++) {
-    //const sum = num * num;
-    result *= num;
+  for (let i = num; i > 0; i--) {
+    product *= i;
   }
 
-  return result;
-
+  return product;
 };
+
+
+
+
 
 
 
